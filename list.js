@@ -37,19 +37,19 @@ List.prototype.del = function() {
   this.next = this.prev = null;
 };
 
-List.prototype.delInit = function(list) {
+List.prototype.delInit = function() {
   del(this.prev, this.next);
   this.init();
 };
 
-List.prototype.move = function(head) {
+List.prototype.moveTo = function(head) {
   del(this.prev, this.next);
   this.addTo(head);
 };
 
-List.prototype.moveTail = function(list) {
+List.prototype.moveToTail = function(head) {
   del(this.prev, this.next);
-  this.addTail(list);
+  this.addTail(head);
 };
 
 List.prototype.isLast = function(head) {

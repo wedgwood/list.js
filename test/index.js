@@ -94,7 +94,7 @@ describe('list', function() {
       (new ListElement(i)).list.addToTail(list);
     }
 
-    list.next.move(list.prev);
+    list.next.moveTo(list.prev);
 
     var j = 2;
 
