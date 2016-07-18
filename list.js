@@ -49,7 +49,7 @@ List.prototype.moveTo = function(head) {
 
 List.prototype.moveToTail = function(head) {
   del(this.prev, this.next);
-  this.addTail(head);
+  this.addToTail(head);
 };
 
 List.prototype.isLast = function(head) {
