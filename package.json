@@ -1,5 +1,5 @@
 {
-  "name": "list.js",
+  "name": "list-js",
   "version": "0.1.0",
   "description": "simple doubly linked list implementation using javascript",
   "keyworkds": ["list", "data structure"],
