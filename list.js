@@ -44,7 +44,7 @@ List.prototype.delInit = function(list) {
 
 List.prototype.move = function(head) {
   del(this.prev, this.next);
-  this.add(head);
+  this.addTo(head);
 };
 
 List.prototype.moveTail = function(list) {

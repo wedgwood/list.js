@@ -86,4 +86,20 @@ describe('list', function() {
       assert.equal(head.entry.i, j--);
     });
   });
+
+  it('move to tail', function() {
+    var list = new List();
+
+    for (var i = 1; i <= 2; ++i) {
+      (new ListElement(i)).list.addToTail(list);
+    }
+
+    list.next.move(list.prev);
+
+    var j = 2;
+
+    list.forEachEntry(function(entry) {
+      assert.equal(entry.i, j--);
+    });
+  });
 });
