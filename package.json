@@ -1,0 +1,22 @@
+{
+  "name": "list.js",
+  "version": "0.1.0",
+  "description": "simple doubly linked list implementation using javascript",
+  "keyworkds": ["list", "data structure"],
+  "main": "list.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bus": {
+    "mail": "wedgwood@outlook.com",
+    "url": "http://github.com/wedgwood/list.js/issues"
+  },
+  "files": [
+    "LICENSE",
+    "list.js"
+  ],
+  "homepage": "https://github.com/wedgwood/list.js",
+  "repository": "wedgwood/list.js",
+  "author": "Yuan B.J. <wedgwood@outlook.com>",
+  "license": "MIT"
+}
