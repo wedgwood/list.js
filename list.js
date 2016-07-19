@@ -10,7 +10,7 @@ List.prototype.init = function() {
 };
 
 List.prototype.empty = function() {
-  return this.next === this.prev;
+  return this.next === this;
 };
 
 List.prototype.add_ = function(prev, next) {
